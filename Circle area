@@ -1,0 +1,15 @@
+// Abhinav .B Chandorkar
+//PRN - 2503033111372L013
+//Branch - Electronics and Telecommunication(R)
+
+
+#include<stdio.h>
+int main(){
+    float D,r;
+    printf("Ent diameter: ");
+    scanf("%f,&D);
+    r = D/2;
+    printf("Ara of circle is %f\n",3.14*r*r);
+    printf("circumference of circle is %f:",2*3.14*r);
+    return 0;
+}
